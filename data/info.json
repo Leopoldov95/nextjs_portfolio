@@ -1,0 +1,169 @@
+{
+  "cv_link": "https://drive.google.com/file/d/1-rg6RGHS-ySHVQ020ZpQVPVTT6Zec7KD/view?usp=sharing",
+  "skills_tech": [
+    {
+      "name": "HTML",
+      "img": "html5.svg"
+    },
+    {
+      "name": "CSS",
+      "img": "css3.svg"
+    },
+    {
+      "name": "JavaScript",
+      "img": "javascript.svg"
+    },
+    {
+      "name": "TypeScript",
+      "img": "ts.svg"
+    },
+    {
+      "name": "jQuery",
+      "img": "jquery.svg"
+    },
+    {
+      "name": "D3JS",
+      "img": "d3js.svg"
+    },
+    {
+      "name": "Tailwind",
+      "img": "tailwindcss.svg"
+    },
+    {
+      "name": "SASS",
+      "img": "sass.svg"
+    },
+    {
+      "name": "GAS",
+      "img": "gas.svg"
+    },
+    {
+      "name": "React",
+      "img": "react.svg"
+    },
+    {
+      "name": "Redux",
+      "img": "redux.svg"
+    },
+    {
+      "name": "MUI",
+      "img": "materialui.svg"
+    },
+    {
+      "name": "Node JS",
+      "img": "nodejs.svg"
+    },
+    {
+      "name": "Next JS",
+      "img": "nextjs.svg"
+    },
+    {
+      "name": "Express",
+      "img": "express.svg"
+    },
+    {
+      "name": "MongoDB",
+      "img": "mongodb.svg"
+    },
+    {
+      "name": "Git",
+      "img": "git.svg"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Vagabond Connect",
+      "git": "https://github.com/Leopoldov95/Vagabond-Connect",
+      "link": "https://vagabondconnect.netlify.app/",
+      "img": "vagabond.png"
+    },
+    {
+      "title": "Suay Resort",
+      "git": "https://github.com/Leopoldov95/hotel_mern",
+      "link": "https://suay-resort.netlify.app/",
+      "img": "suay.png"
+    },
+    {
+      "title": "Bicycle ecommerce",
+      "git": "https://github.com/Leopoldov95/bicycle_ecomm",
+      "link": "https://leocycles.netlify.app/",
+      "img": "ecomm.png"
+    },
+    {
+      "title": "ReactJS Pokedex",
+      "git": "https://github.com/Leopoldov95/Pokedex-React-Modern",
+      "link": "https://reactjsnationaldex.netlify.app/",
+      "img": "pokedex.png"
+    },
+    {
+      "title": "Weather App",
+      "git": "https://github.com/Leopoldov95/Weather-Modern",
+      "link": "https://modernweatherapp.netlify.app/",
+      "img": "weather.png"
+    },
+    {
+      "title": "Qwixx JS",
+      "git": "https://github.com/Leopoldov95/QwixxJS-Multiplayer",
+      "link": "https://qwixxjs.netlify.app/",
+      "img": "qwixx.png"
+    }
+  ],
+  "work": [
+    {
+      "dates": "2022 - present",
+      "title": "frontend developer",
+      "company": "frequence",
+      "duties": [
+        "Work closely with software engineers and designers to contribute HTML, CSS, and JS code to an existing codebase by creating web applications using the data visualization library D3JS.",
+        "Communicate with the designers who specialize in designing dynamic web content to help them better understand the dynamic data we handle and how to best represent them.",
+        "Create internal tools for the Creative team such as a metrics dashboard to help the team leaders better see the metrics for designers using data from Google Slides and using Google Apps Script to host the tool.",
+        "Contribute to new products such as Websites by helping designers better understand the fundamentals of CSS class names and HTML structuring."
+      ]
+    },
+    {
+      "dates": "2020 - 2022",
+      "title": "Learing Web Development",
+      "company": "self taught",
+      "duties": [
+        "Learned te fundamentals of HTML, CSS, and JavaScript",
+        "Expanded my knowledge by learning about frontend framweworks and backend web technologies such as Node.js",
+        "Built projects that tested my abilities as a developer."
+      ]
+    }
+  ],
+  "social": [
+    {
+      "icon": "fa-brands fa-linkedin",
+      "url": "https://www.linkedin.com/in/leovortega/"
+    },
+    {
+      "icon": "fa-brands fa-github",
+      "url": "https://github.com/Leopoldov95"
+    },
+    {
+      "icon": "fab fa-facebook-f",
+      "url": "https://www.facebook.com/leopoldoortegav/"
+    },
+    {
+      "icon": "fab fa-twitter",
+      "url": "https://twitter.com/Leopold83920856?"
+    }
+  ],
+  "contact": [
+    {
+      "key": "Location",
+      "value": "United States",
+      "icon": "fas fa-map-marker-alt"
+    },
+    {
+      "key": "Email",
+      "value": "leopoldoortegav@gmail.com",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "key": "Languages",
+      "value": "English, Spanish",
+      "icon": "fas fa-globe-africa"
+    }
+  ]
+}
