@@ -1,6 +1,17 @@
+import { useState } from "react";
 import jsonData from "../data/info.json";
 const Contact = ({ active, name }) => {
   const { cv_link, social, contact } = jsonData;
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
   return (
     <section className={`container ${active === name ? "active" : "hidden"}`}>
       {/* <!-- Main title --> */}
@@ -58,37 +69,39 @@ const Contact = ({ active, name }) => {
             name="contact"
             method="post"
           >
+            <input type="hidden" name="form-name" value="contact" />
             <div className="input-control i-c-2">
               <input
                 type="text"
-                name=""
-                id=""
+                name="name"
                 required
+                onChange={handleChange}
                 placeholder="Your Name"
               />
               <input
                 type="email"
-                name=""
-                id=""
+                name="email"
                 required
+                onChange={handleChange}
                 placeholder="Your Email"
               />
             </div>
             <div className="input-control">
               <input
                 type="text"
-                name=""
-                id=""
+                name="subject"
                 required
+                onChange={handleChange}
                 placeholder="Enter Subject"
               />
             </div>
             <div className="input-control">
               <textarea
-                name=""
-                id=""
+                name="message"
                 cols="15"
                 rows="8"
+                required
+                onChange={handleChange}
                 placeholder="Message Here..."
               ></textarea>
             </div>
