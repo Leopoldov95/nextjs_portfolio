@@ -52,7 +52,12 @@ const Contact = ({ active, name }) => {
         </div>
         {/* <!-- Right Contact --> */}
         <div className="flex-[3] ml-12 xs:mb-24 xl:ml-0 xl:mt-6 xl:mb-24">
-          <form action="" className="contact-form" name="contact" method="post">
+          <form
+            className="contact-form"
+            data-netlify="true"
+            name="contact"
+            method="post"
+          >
             <div className="input-control i-c-2">
               <input
                 type="text"

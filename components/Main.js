@@ -28,10 +28,10 @@ const Main = ({ active, name, setActive }) => {
           </h1>
           <p className="m-6 leading-8">
             I am a self-taught Frontend Web Developer working at Frequence. I
-            specialize in HTML, CSS, and JavScript and use React as my preferred
-            frontend framework. Additionally, I also have knowledge with the
-            backend and have used Node.js, Express, and databases to build
-            Full-Stack Web Applications.
+            specialize in HTML, CSS, and JavaScript and use React as my
+            preferred frontend framework. Additionally, I also have knowledge
+            with the backend and have used Node.js, Express, and databases to
+            build Full-Stack Web Applications.
           </p>
           {/* <!-- header main button --> */}
           {/* <!-- Header Button container --> */}
