@@ -1,8 +1,8 @@
 import jsonData from "../data/info.json";
-const Contact = ({ active, idx }) => {
+const Contact = ({ active, name }) => {
   const { cv_link, social, contact } = jsonData;
   return (
-    <section className={`container ${active === idx ? "active" : "hidden"}`}>
+    <section className={`container ${active === name ? "active" : "hidden"}`}>
       {/* <!-- Main title --> */}
       <div className="main-title">
         <h2>
@@ -34,7 +34,7 @@ const Contact = ({ active, idx }) => {
                   <span className="text-[15px]">{item.key}</span>
                 </div>
                 <p className="p-0 leading-8 my-[0.3rem] xs:text-[15px] text-colorGrey2">
-                  : {item.value}
+                  {item.value}
                 </p>
               </div>
             ))}
@@ -52,7 +52,7 @@ const Contact = ({ active, idx }) => {
         </div>
         {/* <!-- Right Contact --> */}
         <div className="flex-[3] ml-12 xs:mb-24 xl:ml-0 xl:mt-6 xl:mb-24">
-          <form action="" className="contact-form">
+          <form action="" className="contact-form" name="contact" method="post">
             <div className="input-control i-c-2">
               <input
                 type="text"

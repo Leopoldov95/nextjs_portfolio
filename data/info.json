@@ -75,37 +75,43 @@
       "title": "Vagabond Connect",
       "git": "https://github.com/Leopoldov95/Vagabond-Connect",
       "link": "https://vagabondconnect.netlify.app/",
-      "img": "vagabond.png"
+      "img": "vagabond.png",
+      "blurb": "Full Stack Social Media Website"
     },
     {
       "title": "Suay Resort",
       "git": "https://github.com/Leopoldov95/hotel_mern",
       "link": "https://suay-resort.netlify.app/",
-      "img": "suay.png"
+      "img": "suay.png",
+      "blurb": "Hotel Booking website with a database for bookings"
     },
     {
       "title": "Bicycle ecommerce",
       "git": "https://github.com/Leopoldov95/bicycle_ecomm",
       "link": "https://leocycles.netlify.app/",
-      "img": "ecomm.png"
+      "img": "ecomm.png",
+      "blurb": "Biycle eCommerce wesbite created with the MERN stack"
     },
     {
       "title": "ReactJS Pokedex",
       "git": "https://github.com/Leopoldov95/Pokedex-React-Modern",
       "link": "https://reactjsnationaldex.netlify.app/",
-      "img": "pokedex.png"
+      "img": "pokedex.png",
+      "blurb": "React Pokedex that displays all Pokemon available"
     },
     {
       "title": "Weather App",
       "git": "https://github.com/Leopoldov95/Weather-Modern",
       "link": "https://modernweatherapp.netlify.app/",
-      "img": "weather.png"
+      "img": "weather.png",
+      "blurb": "Weather Application with search bar and dynamic map"
     },
     {
       "title": "Qwixx JS",
       "git": "https://github.com/Leopoldov95/QwixxJS-Multiplayer",
       "link": "https://qwixxjs.netlify.app/",
-      "img": "qwixx.png"
+      "img": "qwixx.png",
+      "blurb": "Fun Dice game brought to the web and playable with multiple players"
     }
   ],
   "work": [
@@ -113,6 +119,7 @@
       "dates": "2022 - present",
       "title": "frontend developer",
       "company": "frequence",
+      "location": "mt view, CA",
       "duties": [
         "Work closely with software engineers and designers to contribute HTML, CSS, and JS code to an existing codebase by creating web applications using the data visualization library D3JS.",
         "Communicate with the designers who specialize in designing dynamic web content to help them better understand the dynamic data we handle and how to best represent them.",
@@ -164,6 +171,24 @@
       "key": "Languages",
       "value": "English, Spanish",
       "icon": "fas fa-globe-africa"
+    }
+  ],
+  "about": [
+    {
+      "title": "Frontend Expert",
+      "desc": "Knowledge with HTML, JavaScript, CSS, and React."
+    },
+    {
+      "title": "Mobile Adaptive",
+      "desc": "Ensuring all my work looks great on any screen size."
+    },
+    {
+      "title": "Learner",
+      "desc": "Exploring new tools and technologies to create web applications"
+    },
+    {
+      "title": "Problem Solver",
+      "desc": "Breaking down problems and analyzing them to ensure progeson."
     }
   ]
 }

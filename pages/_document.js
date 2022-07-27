@@ -15,6 +15,13 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          {/* Need this for Netlify contact form */}
+          <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            <input type="text" name="name" />
+            <input type="email" name="email" />
+            <input type="text" name="subject" />
+            <textarea name="message"></textarea>
+          </form>
           <Main />
           <NextScript />
         </body>

@@ -1,8 +1,8 @@
 import jsonData from "../data/info.json";
-const Work = ({ active, idx }) => {
+const Work = ({ active, name }) => {
   const { work } = jsonData;
   return (
-    <section className={`container ${active === idx ? "active" : "hidden"}`}>
+    <section className={`container ${active === name ? "active" : "hidden"}`}>
       {/* <!-- Main title --> */}
       <div className="main-title">
         <h2>
@@ -19,7 +19,7 @@ const Work = ({ active, idx }) => {
           {work.map((item, idx) => (
             <div
               key={idx}
-              className="mb-6 relative pl-12 text-start border-l-[1px] border-solid border-colorGrey5 md_s:ml-5"
+              className="mb-6 relative pl-12 text-start border-l-[1px] border-solid border-colorGrey5 md_s:ml-5 xs:ml-4"
             >
               <div className="tl-icon">
                 <i className="fas fa-briefcase text-[1.3rem]"></i>
@@ -30,6 +30,11 @@ const Work = ({ active, idx }) => {
                 <span className="text-colorGrey2 font-medium text-[1.2rem]">
                   - {item.company}
                 </span>
+                {item.location && (
+                  <span className="text-colorGrey2 italic font-medium text-[1rem]">
+                    - {item.location}
+                  </span>
+                )}
               </h5>
               <ul>
                 {item.duties.map((duty, idx) => (

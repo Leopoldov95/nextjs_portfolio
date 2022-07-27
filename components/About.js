@@ -1,8 +1,8 @@
 import jsonData from "../data/info.json";
-const About = ({ active, idx, mode }) => {
-  const { skills_tech, cv_link } = jsonData;
+const About = ({ active, name, mode }) => {
+  const { skills_tech, cv_link, about } = jsonData;
   return (
-    <section className={`container ${active === idx ? "active" : "hidden"}`}>
+    <section className={`container ${active === name ? "active" : "hidden"}`}>
       {/* <!-- Main title --> */}
       <div className="main-title">
         <h2>
@@ -18,7 +18,7 @@ const About = ({ active, idx, mode }) => {
           <p className="leading-8 p-4 text-colorGrey1 xs:pl-0">
             My name is Leo Ortega and I am a Web Developer specializing in
             Front-End Web Development and have also worked with the Back-End. I
-            enjoy solving problems through code and am excited to work alongside
+            enjoy solving problems through code and enjoy working alongisde
             other amazing developers.
           </p>
           <p className="leading-8 p-4 text-colorGrey1 xs:pl-0">
@@ -47,50 +47,23 @@ const About = ({ active, idx, mode }) => {
         </div>
         {/* <!-- right about --> */}
         <div className="grid grid-cols-2 gap-8 xs:grid-cols-1 xs:pt-10 md:pt-6">
-          {/* <!-- about item --> */}
-          <div className="transition-all duration-400 ease-out border-1 border-solid border-colorGrey5 rounded-[5px] shadow-[1px_2px_15px_rgba(0,0,0,0.1)] hover:cursor-default hover:-translate-y-[5px] hover:border-1 hover:border-solid hover:border-colorSecondary">
-            {/* <!-- about text --> */}
-            <div className="p-6 flex flex-col">
-              <p className="text-5xl font-semibold text-colorSecondary">560+</p>
-              <p className="pl-12 relative uppercase text-[1.2rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
-                Projects <br />
-                Completed
-              </p>
+          {/* <!-- about items --> */}
+          {about.map((item, idx) => (
+            <div
+              key={idx}
+              className="transition-all duration-400 ease-out border-1 border-solid border-colorGrey5 rounded-[5px] shadow-[1px_2px_15px_rgba(0,0,0,0.1)] hover:cursor-default hover:-translate-y-[5px] hover:border-1 hover:border-solid hover:border-colorSecondary"
+            >
+              {/* <!-- about text --> */}
+              <div className="p-6 flex flex-col">
+                <p className="text-3xl font-semibold text-colorSecondary">
+                  {item.title}
+                </p>
+                <p className="pl-12 relative uppercase text-[1rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
+                  {item.desc}
+                </p>
+              </div>
             </div>
-          </div>
-          {/* <!-- about item --> */}
-          <div className="transition-all duration-400 ease-out border-1 border-solid border-colorGrey5 rounded-[5px] shadow-[1px_2px_15px_rgba(0,0,0,0.1)] hover:cursor-default hover:-translate-y-[5px] hover:border-1 hover:border-solid hover:border-colorSecondary">
-            {/* <!-- about text --> */}
-            <div className="p-6 flex flex-col">
-              <p className="text-5xl font-semibold text-colorSecondary">560+</p>
-              <p className="pl-12 relative uppercase text-[1.2rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
-                Projects <br />
-                Completed
-              </p>
-            </div>
-          </div>
-          {/* <!-- about item --> */}
-          <div className="transition-all duration-400 ease-out border-1 border-solid border-colorGrey5 rounded-[5px] shadow-[1px_2px_15px_rgba(0,0,0,0.1)] hover:cursor-default hover:-translate-y-[5px] hover:border-1 hover:border-solid hover:border-colorSecondary">
-            {/* <!-- about text --> */}
-            <div className="p-6 flex flex-col">
-              <p className="text-5xl font-semibold text-colorSecondary">560+</p>
-              <p className="pl-12 relative uppercase text-[1.2rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
-                Projects <br />
-                Completed
-              </p>
-            </div>
-          </div>
-          {/* <!-- about item --> */}
-          <div className="transition-all duration-400 ease-out border-1 border-solid border-colorGrey5 rounded-[5px] shadow-[1px_2px_15px_rgba(0,0,0,0.1)] hover:cursor-default hover:-translate-y-[5px] hover:border-1 hover:border-solid hover:border-colorSecondary">
-            {/* <!-- about text --> */}
-            <div className="p-6 flex flex-col">
-              <p className="text-5xl font-semibold text-colorSecondary">560+</p>
-              <p className="pl-12 relative uppercase text-[1.2rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
-                Projects <br />
-                Completed
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
       {/* Tech Section */}
