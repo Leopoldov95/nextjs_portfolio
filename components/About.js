@@ -7,7 +7,7 @@ const About = ({ active, name, mode }) => {
       <div className="main-title">
         <h2>
           About <span className="text-colorSecondary">me</span>
-          <span className="bg-text">my stats</span>
+          <span className="bg-text">info</span>
         </h2>
       </div>
       {/*  About Container */}
@@ -16,7 +16,7 @@ const About = ({ active, name, mode }) => {
         <div className="pr-20 xs:pr-0 md_s:pr-0 md_s:text-center">
           <h4 className="text-[2rem] uppercase">Information about me</h4>
           <p className="leading-8 p-4 text-colorGrey1 xs:pl-0">
-            My name is Leo Ortega and I am a Web Developer specializing in
+            My name is Leopoldo Ortega and I am a Web Developer specializing in
             Front-End Web Development and have also worked with the Back-End. I
             enjoy solving problems through code and enjoy working alongisde
             other amazing developers.

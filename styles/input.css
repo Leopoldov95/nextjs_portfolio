@@ -119,6 +119,9 @@ li {
   border-radius: 50%;
   padding: 1rem;
 }
+.btn-icon.icon-1 {
+  padding: 1rem 14px;
+}
 .main-title {
   text-align: center;
 }
@@ -330,7 +333,7 @@ li {
 /* Media Queries */
 @media screen and (max-width: 1432px) {
   .container {
-    padding: 7rem 11rem;
+    padding: 2rem 11rem;
   }
   .input-control.i-c-2 {
     flex-direction: column;
@@ -358,13 +361,13 @@ li {
 
 @media screen and (max-width: 970px) {
   .container {
-    padding: 7rem 6rem;
+    padding: 3rem 6rem;
   }
 }
 
 @media screen and (max-width: 700px) {
   .container {
-    padding: 7rem 3rem;
+    padding: 3.5rem 3rem;
   }
   .main-title h2 .bg-text {
     font-size: 4rem;

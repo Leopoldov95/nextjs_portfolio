@@ -12,7 +12,7 @@ const Work = ({ active, name }) => {
       </div>
       {/* <!-- Work Section container --> */}
       <div className="pt-14 pb-20">
-        <h4 className="uppercase text-[1.4rem] text-center py-14 relative">
+        <h4 className="uppercase text-[1.4rem] text-center pb-14 relative">
           My Work Timeline
         </h4>
         <div className="gap-8 pb-12">

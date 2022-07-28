@@ -12,9 +12,9 @@ const Projects = ({ active, name }) => {
         </h2>
       </div>
       {/* Portfolio subheader */}
-      <p className="py-4 text-center ">
+      <p className="py-4 text-center xs:mt-4">
         Projects I have created as a way of learning more about these amazing
-        tools.
+        tools and technology.
       </p>
       {/* Projects cards */}
       <div className="grid grid-cols-3 gap-8 mt-12 lg:grid-cols-2 x_sm:grid-cols-1 xs:grid-cols-1 xs:pb-24 xs:mt-4 ">

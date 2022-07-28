@@ -35,14 +35,14 @@ const Main = ({ active, name, setActive }) => {
           </p>
           {/* <!-- header main button --> */}
           {/* <!-- Header Button container --> */}
-          <div className="flex pt-1 self-start flex-wrap items-baseline md:justify-start xs:justify-center xs:mx-auto xs:flex-col">
+          <div className="flex pt-[5px] self-start flex-wrap items-baseline md:justify-start xs:justify-center xs:mx-auto xs:flex-col">
             {/* <!-- Call to Action --> */}
             <a
               className="main-btn mr-4 mb-4 xs:mr-0"
               onClick={() => setActive("projects")}
             >
               <span className="px-8">See Projects</span>
-              <span className="btn-icon">
+              <span className="btn-icon icon-1">
                 <i className="fas fa-code"></i>
               </span>
             </a>
