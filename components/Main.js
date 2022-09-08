@@ -23,15 +23,16 @@ const Main = ({ active, name, setActive }) => {
         <div className="flex flex-col justify-center pr-72 xl:pr-52 lg:pr-36 xs:grid-rows-1 xs:pr-0 xs:w-[90%] xs:m-[0_auto] md_s:row-span-full md_s:pr-0 md_s:w-[90%] md_s:mx-auto md_s:my-0">
           {/* <!-- Name --> */}
           <h1 className="text-5xl xs:text-[2.5rem] xs:text-center xs:pt-12 md_s:text-[2.5rem] md_s:text-center md_s:pt-12">
-            Hi, Im <span className="text-colorSecondary">Leopoldo Ortega.</span>{" "}
-            A Web Developer
+            Hi, I&apos;m{" "}
+            <span className="text-colorSecondary">Leopoldo Ortega.</span> A Web
+            Developer
           </h1>
           <p className="m-6 leading-8">
             I am a self-taught Frontend Web Developer working at Frequence. I
             specialize in HTML, CSS, and JavaScript and use React as my
-            preferred frontend framework. Additionally, I also have knowledge
-            with the backend and have used Node.js, Express, and databases to
-            build Full-Stack Web Applications.
+            preferred frontend framework. I also have knowledge of the backend
+            and have used Node.js, Express, and databases to build Full-Stack
+            Web Applications.
           </p>
           {/* <!-- header main button --> */}
           {/* <!-- Header Button container --> */}
