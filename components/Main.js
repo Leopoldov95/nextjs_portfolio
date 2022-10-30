@@ -4,16 +4,16 @@ const Main = ({ active, name, setActive }) => {
   return (
     <header className={`container ${active === name ? "active" : "hidden"}`}>
       {/* Header Content */}
-      <div className=" grid grid-cols-2 min-h-screen h-full xs:grid-cols-1 xs:pb-24 md_s:grid-cols-1 md_s:pb-24">
+      <div className=" grid grid-cols-2 min-h-screen h-full xs:grid-cols-1 xs:pb-24 md_s:grid-cols-1 md_s:py-12 md_s:px-12 x_sm:px-8 xs:p-0">
         {/* Left Content Header */}
         <div className=" flex items-center relative">
           {/* Header Shape */}
           <div className="h-full w-[65%] duration-400 ease-in-out transition-all bg-colorSecondary absolute left-0 top-0 -z-[1] header-bg-clip xs:hidden md_s:hidden"></div>
           {/* header image container */}
-          <div className="rounded-[14px] relative bg-black h-[90%] w-[68%] ml-16 duration-400 ease-in-out transition-all md_s:w-[90%] md_s:mx-auto md_s:my-0">
+          <div className="rounded-[14px] relative bg-black h-[80%] w-[68%] ml-16 duration-400 ease-in-out transition-all md_s:w-[90%] md_s:mx-auto md_s:my-0">
             {/* Header Image */}
             <img
-              className="h-full object-cover w-full duration-400 ease-in-out transition-all grayscale hover:grayscale-0 xs:m-[0_auto] xs:w-[90%]"
+              className="h-full object-cover w-full object-top duration-400 ease-in-out rounded-[14px] transition-all grayscale hover:grayscale-0 xs:m-[0_auto] xs:w-[90%]"
               src="/static/images/me.png"
               alt="hero img"
             ></img>

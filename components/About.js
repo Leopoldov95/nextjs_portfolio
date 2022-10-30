@@ -46,7 +46,7 @@ const About = ({ active, name, mode }) => {
           </div>
         </div>
         {/* <!-- right about --> */}
-        <div className="grid grid-cols-2 gap-8 xs:grid-cols-1 xs:pt-10 md:pt-6">
+        <div className="grid grid-cols-2 gap-8 xs:grid-cols-1 xs:pt-10 md:pt-6 md:gap-4">
           {/* <!-- about items --> */}
           {about.map((item, idx) => (
             <div
@@ -55,10 +55,10 @@ const About = ({ active, name, mode }) => {
             >
               {/* <!-- about text --> */}
               <div className="p-6 flex flex-col">
-                <p className="text-3xl font-semibold text-colorSecondary">
+                <p className="text-3xl font-semibold text-colorSecondary h-[4.5rem]">
                   {item.title}
                 </p>
-                <p className="pl-12 relative uppercase text-[1rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
+                <p className="about-box-text pl-12 relative uppercase text-[1rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
                   {item.desc}
                 </p>
               </div>

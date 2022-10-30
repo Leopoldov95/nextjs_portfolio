@@ -76,7 +76,7 @@
       "git": "https://github.com/Leopoldov95/Vagabond-Connect",
       "link": "https://vagabondconnect.netlify.app/",
       "img": "vagabond.png",
-      "blurb": "Full Stack Social Media Website"
+      "blurb": "Full Stack Social Media Website Created with React & TypeScript"
     },
     {
       "title": "Suay Resort",
@@ -176,19 +176,19 @@
   "about": [
     {
       "title": "Frontend Expert",
-      "desc": "Knowledge with HTML, JavaScript, CSS, and React."
+      "desc": "Professional knowledge with HTML, JavaScript, CSS, and React."
     },
     {
       "title": "Mobile Adaptive",
-      "desc": "Ensuring all my work looks great on any screen size."
+      "desc": "Ensuring that web applications look great on any screen size."
     },
     {
       "title": "Learner",
-      "desc": "Exploring new tools and technologies to create web applications"
+      "desc": "Always improving existing skills and exploring new technologies."
     },
     {
-      "title": "Problem Solver",
-      "desc": "Breaking down problems and analyzing them to ensure progeson."
+      "title": "Tech Savvy",
+      "desc": "My love for computers and tech can be seen in my work."
     }
   ]
 }

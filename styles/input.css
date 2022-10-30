@@ -346,6 +346,18 @@ li {
     font-size: 5.5rem;
   }
 }
+@media screen and (max-width: 1290px) {
+  .about-box-text {
+    padding-left: 0 !important;
+    padding-top: 12px;
+  }
+  .about-box-text::before {
+    position: absolute !important;
+    top: 4px !important;
+    width: 100% !important;
+    height: 1px !important;
+  }
+}
 
 @media screen and (max-width: 1070px) {
   .main-title h2 .bg-text {
