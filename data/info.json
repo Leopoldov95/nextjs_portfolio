@@ -76,21 +76,21 @@
       "git": "https://github.com/Leopoldov95/Vagabond-Connect",
       "link": "https://vagabondconnect.netlify.app/",
       "img": "vagabond.png",
-      "blurb": "Full Stack Social Media Website Created with React & TypeScript"
+      "blurb": "Full Stack Social Media Web app with CRUD functionality created with React, TypeScript, NodeJS, Express, and MongoDB"
     },
     {
       "title": "Suay Resort",
       "git": "https://github.com/Leopoldov95/hotel_mern",
       "link": "https://suay-resort.netlify.app/",
       "img": "suay.png",
-      "blurb": "Hotel Booking website with a database for bookings"
+      "blurb": "Hotel Booking website with a database for bookings created using the MERN stack."
     },
     {
       "title": "Bicycle ecommerce",
       "git": "https://github.com/Leopoldov95/bicycle_ecomm",
       "link": "https://leocycles.netlify.app/",
       "img": "ecomm.png",
-      "blurb": "Biycle eCommerce wesbite created with the MERN stack"
+      "blurb": "Biycle eCommerce wesbite with user authentication created with the MERN stack"
     },
     {
       "title": "ReactJS Pokedex",
@@ -121,9 +121,11 @@
       "company": "frequence",
       "location": "mt view, CA",
       "duties": [
-        "Work closely with software engineers and designers to contribute HTML, CSS, and JS code to an existing codebase by creating web applications using the data visualization library D3JS.",
+        "Work alongside other software engineers to contribute HTML, CSS, and JS code to an existing codebase by creating and maintaining web applications.",
+        "Use the data visualization library D3JS to showcase beautiful and informative visuals to clients.",
+        "Work in an agile environment that focuses on continuous improvement through iterative cycles(sprints).",
         "Communicate with the designers who specialize in designing dynamic web content to help them better understand the dynamic data we handle and how to best represent them.",
-        "Create internal tools for the Creative team such as a metrics dashboard to help the team leaders better see the metrics for designers using data from Google Slides and using Google Apps Script to host the tool.",
+        "Create internal tools for the Creative team such as a metrics dashboard to help the team leaders better see the metrics for designers using data from Google Sheets and using Google Apps Script to host the application.",
         "Contribute to new products such as Websites by helping designers better understand the fundamentals of CSS class names and HTML structuring."
       ]
     },
@@ -134,7 +136,8 @@
       "duties": [
         "Learned the fundamentals of HTML, CSS, and JavaScript",
         "Expanded my knowledge by learning about frontend frameworks and backend web technologies such as Node.js",
-        "Built projects that tested my abilities as a developer."
+        "Built projects that tested my abilities as a developer.",
+        "Technically still ongoing as being a developer means always learning new techniques and technologies."
       ]
     }
   ],
@@ -176,19 +179,19 @@
   "about": [
     {
       "title": "Frontend Expert",
-      "desc": "Professional knowledge with HTML, JavaScript, CSS, and React."
+      "desc": "Professional knowledge of HTML, JavaScript, CSS, and React."
     },
     {
-      "title": "Mobile Adaptive",
-      "desc": "Ensuring that web applications look great on any screen size."
+      "title": "Proactive",
+      "desc": "Identifiy existing problems and take steps to resolve them."
     },
     {
       "title": "Learner",
       "desc": "Always improving existing skills and exploring new technologies."
     },
     {
-      "title": "Tech Savvy",
-      "desc": "My love for computers and tech can be seen in my work."
+      "title": "Collaborative",
+      "desc": "Communicates with team members to ensure projects are meeting their goals."
     }
   ]
 }

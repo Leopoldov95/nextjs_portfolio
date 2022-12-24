@@ -24,15 +24,18 @@ const Main = ({ active, name, setActive }) => {
           {/* <!-- Name --> */}
           <h1 className="text-5xl xs:text-[2.5rem] xs:text-center xs:pt-12 md_s:text-[2.5rem] md_s:text-center md_s:pt-12">
             Hi, I&apos;m{" "}
-            <span className="text-colorSecondary">Leopoldo Ortega.</span> A Web
+            <span className="text-colorSecondary">Leo Ortega.</span> A Web
             Developer
           </h1>
-          <p className="m-6 leading-8">
-            I am a self-taught Frontend Web Developer working at Frequence. I
-            specialize in HTML, CSS, and JavaScript and use React as my
-            preferred frontend framework. I also have knowledge of the backend
-            and have used Node.js, Express, and databases to build Full-Stack
-            Web Applications.
+          <p className="my-6 mr-6 leading-8">
+            I am a Frontend Developer working at Frequence. I specialize in
+            HTML, CSS, and JavaScript and use these technologies to create
+            sophisticated web applications.
+            <br />
+            I also have knowledge of the backend and have used Node.js, REST
+            API's, and databases to build Full-Stack Web Applications.
+            <br />I am continuously looking to challenge myself and create
+            software that can satisfy company and client needs.
           </p>
           {/* <!-- header main button --> */}
           {/* <!-- Header Button container --> */}
