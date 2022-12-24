@@ -33,7 +33,7 @@ const Main = ({ active, name, setActive }) => {
             sophisticated web applications.
             <br />
             I also have knowledge of the backend and have used Node.js, REST
-            API's, and databases to build Full-Stack Web Applications.
+            API&apos;s, and databases to build Full-Stack Web Applications.
             <br />I am continuously looking to challenge myself and create
             software that can satisfy company and client needs.
           </p>
