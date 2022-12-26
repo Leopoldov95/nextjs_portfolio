@@ -1,5 +1,5 @@
 {
-  "cv_link": "https://drive.google.com/file/d/1-rg6RGHS-ySHVQ020ZpQVPVTT6Zec7KD/view?usp=sharing",
+  "cv_link": "https://drive.google.com/file/d/1Oib3fzJ5LU2GVcEvIsF0kNR40wwG7qCP/view?usp=sharing",
   "skills_tech": [
     {
       "name": "HTML",
@@ -122,8 +122,9 @@
       "location": "mt view, CA",
       "duties": [
         "Work alongside other software engineers to contribute HTML, CSS, and JS code to an existing codebase by creating and maintaining web applications.",
+        "Use SQL to make sensitive updates to code and files stored in an AWS bucket.",
+        "Work off a Jira Kanban board in an agile work methodology through sprint cycles.",
         "Use the data visualization library D3JS to showcase beautiful and informative visuals to clients.",
-        "Work in an agile environment that focuses on continuous improvement through iterative cycles(sprints).",
         "Communicate with the designers who specialize in designing dynamic web content to help them better understand the dynamic data we handle and how to best represent them.",
         "Create internal tools for the Creative team such as a metrics dashboard to help the team leaders better see the metrics for designers using data from Google Sheets and using Google Apps Script to host the application.",
         "Contribute to new products such as Websites by helping designers better understand the fundamentals of CSS class names and HTML structuring."
