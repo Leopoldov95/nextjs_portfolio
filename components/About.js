@@ -15,13 +15,13 @@ const About = ({ active, name, mode }) => {
         {/* <!-- left about --> */}
         <div className="pr-20 xs:pr-0 md_s:pr-0 md_s:text-center">
           <h4 className="text-[2rem] uppercase">Information about me</h4>
-          <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0">
+          <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
             My name is Leo Ortega, I am a Web Developer specializing in
             Front-End Development and have also worked with the Back-End. I
             enjoy solving problems through programming and enjoy working
             alongside other excellent developers.
           </p>
-          <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0">
+          <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
             By building interactive websites that look great across all
             platforms using mainly HTML, SASS, JavaScript, and ReactJS, I get
             the opportunity to experiment with new tools and learn new skills. I

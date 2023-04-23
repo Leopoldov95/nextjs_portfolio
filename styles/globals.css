@@ -902,9 +902,8 @@ video {
   font-size: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-\[1\.75rem\] {
+  font-size: 1.75rem;
 }
 
 .text-\[1rem\] {
@@ -936,10 +935,6 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-\[1\.75rem\] {
-  font-size: 1.75rem;
 }
 
 .font-semibold {
@@ -1048,7 +1043,7 @@ video {
 
 .light-mode {
   --color-primary: #ffffff;
-  --color-secondary: #00e676;
+  --color-secondary: #00c73d;
   --color-white: #454e56;
   --color-dark: #000;
   --color-grey0: #f8f8f8;
@@ -1730,6 +1725,10 @@ li {
   .sm\:pr-\[8\%\] {
     padding-right: 8%;
   }
+
+  .sm\:text-left {
+    text-align: left;
+  }
 }
 
 @media (max-width: 660px) {
@@ -1850,6 +1849,10 @@ li {
 
   .xs\:pt-12 {
     padding-top: 3rem;
+  }
+
+  .xs\:text-left {
+    text-align: left;
   }
 
   .xs\:text-center {

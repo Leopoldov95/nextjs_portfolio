@@ -18,6 +18,26 @@
       "img": "ts.svg"
     },
     {
+      "name": "React",
+      "img": "react.svg"
+    },
+    {
+      "name": "Next JS",
+      "img": "nextjs.svg"
+    },
+    {
+      "name": "PHP",
+      "img": "php.svg"
+    },
+    {
+      "name": "MySQL",
+      "img": "mysql.svg"
+    },
+    {
+      "name": "Node JS",
+      "img": "nodejs.svg"
+    },
+    {
       "name": "jQuery",
       "img": "jquery.svg"
     },
@@ -38,24 +58,12 @@
       "img": "gas.svg"
     },
     {
-      "name": "React",
-      "img": "react.svg"
-    },
-    {
       "name": "Redux",
       "img": "redux.svg"
     },
     {
       "name": "MUI",
       "img": "materialui.svg"
-    },
-    {
-      "name": "Node JS",
-      "img": "nodejs.svg"
-    },
-    {
-      "name": "Next JS",
-      "img": "nextjs.svg"
     },
     {
       "name": "Express",
@@ -154,10 +162,6 @@
     {
       "icon": "fab fa-facebook-f",
       "url": "https://www.facebook.com/leopoldoortegav/"
-    },
-    {
-      "icon": "fab fa-twitter",
-      "url": "https://twitter.com/Leopold83920856?"
     }
   ],
   "contact": [
