@@ -1,5 +1,5 @@
 {
-  "cv_link": "https://drive.google.com/file/d/1Oib3fzJ5LU2GVcEvIsF0kNR40wwG7qCP/view?usp=sharing",
+  "cv_link": "https://drive.google.com/file/d/1BHr7UrD8v2DwHvgXjxOOJ1Bm6xMRlfAi/view?usp=drive_link",
   "skills_tech": [
     {
       "name": "HTML",
@@ -26,8 +26,8 @@
       "img": "nextjs.svg"
     },
     {
-      "name": "PHP",
-      "img": "php.svg"
+      "name": "Java",
+      "img": "java.svg"
     },
     {
       "name": "MySQL",
@@ -124,7 +124,7 @@
   ],
   "work": [
     {
-      "dates": "2022 - present",
+      "dates": "Jan 2022 - present",
       "title": "frontend developer",
       "company": "frequence",
       "location": "mt view, CA",
@@ -139,7 +139,7 @@
       ]
     },
     {
-      "dates": "2020 - 2022",
+      "dates": "Sept 2020 - Jan 2022",
       "title": "Learing Web Development",
       "company": "self taught",
       "duties": [
