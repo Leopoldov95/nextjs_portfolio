@@ -10,9 +10,12 @@ module.exports = {
       lg: { max: "1250px" },
       md: { max: "1070px" },
       md_s: { max: "970px" },
+      md_project: { max: "800px" },
       sm: { max: "700px" },
       x_sm: { max: "660px" },
       xs: { max: "600px" },
+      xxs: { max: "450px" },
+      mobile: { max: "350px" },
     },
     extend: {
       colors: {

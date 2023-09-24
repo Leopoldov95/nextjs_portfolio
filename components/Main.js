@@ -13,8 +13,8 @@ const Main = ({ active, name, setActive }) => {
           <div className="rounded-[14px] relative bg-black h-[80%] w-[68%] ml-16 duration-400 ease-in-out transition-all md_s:w-[90%] md_s:mx-auto md_s:my-0">
             {/* Header Image */}
             <img
-              className="h-full object-cover w-full object-top duration-400 ease-in-out rounded-[14px] transition-all grayscale hover:grayscale-0 xs:m-[0_auto] xs:w-[90%]"
-              src="/static/images/me.png"
+              className="h-full object-cover w-full p-4 rounded-[22px] object-top duration-400 ease-in-out rounded-[14px] transition-all grayscale hover:grayscale-0 xs:m-[0_auto] xs:w-[90%] xs:p-2"
+              src="/static/images/programmer.svg"
               alt="hero img"
             ></img>
           </div>
@@ -22,17 +22,17 @@ const Main = ({ active, name, setActive }) => {
         {/* <!-- Right Header content --> */}
         <div className="flex flex-col justify-center pr-72 xl:pr-52 lg:pr-36 xs:grid-rows-1 xs:pr-0 xs:w-[90%] xs:m-[0_auto] md_s:row-span-full md_s:pr-0 md_s:w-[90%] md_s:mx-auto md_s:my-0">
           {/* <!-- Name --> */}
-          <h1 className="text-5xl xs:text-[2.5rem] xs:text-center xs:pt-12 md_s:text-[2.5rem] md_s:text-center md_s:pt-12">
+          <h1 className="text-5xl xs:text-[2.5rem] xs:text-center xs:pt-12 md_s:text-[2.5rem] md_s:text-center md_s:pt-12 mobile:text-left">
             Hi, I&apos;m{" "}
-            <span className="text-colorSecondary">Leo Ortega.</span> A Web
-            Developer
+            <span className="text-colorSecondary">Leo Ortega.</span> A Full
+            Stack Developer.
           </h1>
           <p className="my-6 mr-6 leading-8">
             I am a Frontend Developer working at Frequence. I specialize in
-            HTML, CSS, and JavaScript and use these technologies to create
-            sophisticated web applications.
+            HTML, CSS, JavaScript, and React and use these technologies to
+            create sophisticated web applications.
             <br />
-            I also have knowledge of the backend and have used Node.js, REST
+            I have knowledge of the backend and have used Node.js, REST
             API&apos;s, and databases to build Full-Stack Web Applications.
             <br />I am continuously looking to challenge myself and create
             software that can satisfy company and client needs.

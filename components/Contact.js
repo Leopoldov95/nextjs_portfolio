@@ -36,7 +36,7 @@ const Contact = ({ active, name }) => {
             {contact.map((item, idx) => (
               <div
                 key={idx}
-                className="flex items-center justify-between xs:flex-col xs:mx-0 xs:my-4 sm:pr-[8%] xs:pr-0"
+                className="flex items-center justify-between xs:flex-col xs:mx-0 xs:my-4 sm:pr-[8%] xs:pr-0 mobile:text-left mobile:items-start"
               >
                 <div className="grid grid-cols-[40px_1fr] xs:grid-cols-[25px_1fr]">
                   <i
@@ -109,6 +109,9 @@ const Contact = ({ active, name }) => {
               {/* <!-- Link to resume here --> */}
               <button className="main-btn px-8 mr-6 xs:mr-0 py-[0.8rem] xs:mb-4">
                 Send Message
+                <span className="btn-icon">
+                  <i className="fa-regular fa-paper-plane"></i>
+                </span>
               </button>
               <a
                 href={cv_link}
