@@ -14,20 +14,23 @@ const About = ({ active, name, mode }) => {
       <div className="grid grid-cols-2 pt-14 pb-20 xs:grid-cols-1 md:grid-cols-1">
         {/* <!-- left about --> */}
         <div className="pr-20 xs:pr-0 md_s:pr-0 md_s:text-center">
-          <h4 className="text-[2rem] uppercase">Information about me</h4>
+          <h4 className="text-[2rem] uppercase mobile:text-left">
+            Information about me
+          </h4>
           <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
-            My name is Leo Ortega, I am a Web Developer specializing in
-            Front-End Development and have also worked with the Back-End. I
-            enjoy solving problems through programming and enjoy working
-            alongside other excellent developers.
+            My name is <span className="text-colorSecondary">Leo Ortega</span>,
+            I am a front-end web developer proficient in crafting seamless user
+            interfaces using HTML, CSS, JavaScript, D3.js, and React. I possess
+            a solid foundation in backend technologies including node.js,
+            express.js, and MySQL databases, allowing me to seamlessly integrate
+            front-end designs with robust server-side functionalities.
           </p>
           <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
-            By building interactive websites that look great across all
-            platforms using mainly HTML, SASS, JavaScript, and ReactJS, I get
-            the opportunity to experiment with new tools and learn new skills. I
-            find Web Development to be a perfect blend of technical challenge
-            and creativity. You can find me cycling, going on a hike, or
-            traveling when I&apos;m not coding.
+            As I continue to grow in my role, I am eagerly seeking full-stack
+            developer opportunities to further expand my skill set and take on
+            more comprehensive projects. I am excited to leverage my combined
+            front-end and backend expertise to tackle new challenges and deliver
+            exceptional solutions.
           </p>
           {/* <!-- button container --> */}
           <div className="flex self-start">
@@ -55,7 +58,7 @@ const About = ({ active, name, mode }) => {
             >
               {/* <!-- about text --> */}
               <div className="p-6 flex flex-col">
-                <p className="text-[1.75rem] font-semibold text-colorSecondary h-[4.5rem]">
+                <p className="text-[1.75rem] font-semibold text-colorSecondary h-[4.5rem] leading-7">
                   {item.title}
                 </p>
                 <p className="about-box-text pl-12 relative uppercase text-[1rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">

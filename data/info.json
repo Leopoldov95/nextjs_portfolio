@@ -2,14 +2,6 @@
   "cv_link": "https://drive.google.com/file/d/1BHr7UrD8v2DwHvgXjxOOJ1Bm6xMRlfAi/view?usp=drive_link",
   "skills_tech": [
     {
-      "name": "HTML",
-      "img": "html5.svg"
-    },
-    {
-      "name": "CSS",
-      "img": "css3.svg"
-    },
-    {
       "name": "JavaScript",
       "img": "javascript.svg"
     },
@@ -36,6 +28,14 @@
     {
       "name": "Node JS",
       "img": "nodejs.svg"
+    },
+    {
+      "name": "HTML",
+      "img": "html5.svg"
+    },
+    {
+      "name": "CSS",
+      "img": "css3.svg"
     },
     {
       "name": "jQuery",
@@ -84,42 +84,40 @@
       "git": "https://github.com/Leopoldov95/Vagabond-Connect",
       "link": "https://vagabondconnect.netlify.app/",
       "img": "vagabond.png",
-      "blurb": "Full Stack Social Media Web app with CRUD functionality created with React, TypeScript, NodeJS, Express, and MongoDB"
+      "stack": [
+        "react",
+        "ts",
+        "redux",
+        "materialui",
+        "nodejs",
+        "express",
+        "mongodb"
+      ],
+      "blurb": "Full Stack Social Media Web app with CRUD functionality created with MERN (React, TypeScript, NodeJS, Express, and MongoDB). Uses Socket.io for live messanging and notificatons update."
+    },
+    {
+      "title": "Admin Metrics Dashboard",
+      "git": "",
+      "link": "",
+      "img": "dashboard.png",
+      "stack": ["javascript", "d3js", "gas", "html5", "css3"],
+      "blurb": "Admin dashboard for managers and team leads to visualize employee performance with interactive charts and graphs created with D3.js. Reads data from a database with live updates on employee metrics."
     },
     {
       "title": "Suay Resort",
       "git": "https://github.com/Leopoldov95/hotel_mern",
       "link": "https://suay-resort.netlify.app/",
       "img": "suay.png",
-      "blurb": "Hotel Booking website with a database for bookings created using the MERN stack."
+      "stack": ["react", "redux", "sass", "nodejs", "express", "mongodb"],
+      "blurb": "Hotel Booking website with a database for bookings created using the MERN stack. Users can manage bookings and are alerted if a room is full or available at a specified date."
     },
     {
-      "title": "Bicycle ecommerce",
+      "title": "Bicycle eCommerce Shop",
       "git": "https://github.com/Leopoldov95/bicycle_ecomm",
       "link": "https://leocycles.netlify.app/",
       "img": "ecomm.png",
-      "blurb": "Biycle eCommerce wesbite with user authentication created with the MERN stack"
-    },
-    {
-      "title": "ReactJS Pokedex",
-      "git": "https://github.com/Leopoldov95/Pokedex-React-Modern",
-      "link": "https://reactjsnationaldex.netlify.app/",
-      "img": "pokedex.png",
-      "blurb": "React Pokedex that displays all Pokemon available"
-    },
-    {
-      "title": "Weather App",
-      "git": "https://github.com/Leopoldov95/Weather-Modern",
-      "link": "https://modernweatherapp.netlify.app/",
-      "img": "weather.png",
-      "blurb": "Weather Application with search bar and dynamic map"
-    },
-    {
-      "title": "Qwixx JS",
-      "git": "https://github.com/Leopoldov95/QwixxJS-Multiplayer",
-      "link": "https://qwixxjs.netlify.app/",
-      "img": "qwixx.png",
-      "blurb": "Fun Dice game brought to the web and playable with multiple players"
+      "stack": ["react", "redux", "sass", "nodejs", "express", "mongodb"],
+      "blurb": "Biycle eCommerce wesbite with user authentication created with the MERN stack. Has a persistant shopping cart that is stored in the client's browser."
     }
   ],
   "work": [
@@ -147,6 +145,20 @@
         "Expanded my knowledge by learning about frontend frameworks and backend web technologies such as Node.js",
         "Built projects that tested my abilities as a developer.",
         "Technically still ongoing as being a developer means always learning new techniques and technologies."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "dates": "Jan 2021 - May 2024",
+      "title": "B.S. - Computer Science",
+      "company": "Western Governors University",
+      "location": "",
+      "duties": [
+        "Learned the fundamentals of programming including OOP, Data Structures, and Software Engineering.",
+        "Advance knowledge of Java and Java frameworks such as Spring.",
+        "Created REST web servers with the use of Java Spring Boot.",
+        "Demonstrated strong application development through capstone project."
       ]
     }
   ],

@@ -90,6 +90,8 @@ li {
   border-radius: 30px;
   color: inherit;
   font-weight: 600;
+  width: 220px;
+  height: 51px;
   position: relative;
   border: 1px solid var(--color-secondary);
   display: flex;
@@ -103,16 +105,23 @@ li {
   right: 0;
   transform: translateX(100%);
   transition: var(--transition);
+  background-color: transparent;
+  width: 0%;
+  height: 100%;
   z-index: -1;
 }
 .main-btn:hover::before {
   width: 100%;
   height: 100%;
+  transition: var(--transition);
   background-color: var(--color-secondary);
   transform: translateX(0);
 }
 .btn-icon {
   background-color: var(--color-secondary);
+  position: absolute;
+  top: 0;
+  right: -1px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -137,6 +146,7 @@ li {
   left: 50%;
   transition: var(--transition);
   color: var(--color-grey-5);
+  opacity: 0.5;
   z-index: -1;
   transform: translate(-50%, -50%);
   font-weight: 800;
@@ -234,20 +244,28 @@ li {
   transform: scale(0);
   transition: var(--transition);
 }
-.portfolio-items .hover-items .icon {
-  background-color: var(--color-primary);
+.icon__link {
+  background-color: var(--color-secondary);
   border-radius: 50%;
   width: 50px;
   height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 1rem;
+  margin-right: 1rem;
   cursor: pointer;
   transition: var(--transition);
 }
-.portfolio-items .hover-items .icon:hover {
+.icon__link:hover {
   background-color: var(--color-white);
+}
+.icon__link.disabled {
+  pointer-events: none;
+  background-color: var(--color-grey-2);
+  cursor: not-allowed;
+}
+.icon__link.disabled:hover {
+  cursor: not-allowed;
 }
 
 /* Contact section */
@@ -331,6 +349,11 @@ li {
 }
 
 /* Media Queries */
+@media screen and (max-width: 1580px) {
+  .container {
+    padding: 3rem 13rem;
+  }
+}
 @media screen and (max-width: 1432px) {
   .container {
     padding: 2rem 11rem;
@@ -421,5 +444,10 @@ li {
   }
   .main-title h2 span {
     font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 2rem 1rem;
   }
 }
