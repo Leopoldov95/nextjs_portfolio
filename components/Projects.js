@@ -32,7 +32,7 @@ const Projects = ({ active, name }) => {
 `}
           >
             <img
-              className="w-[400px] h-[300px] rounded-[14px] object-cover brightness-95 xxs:h-[280px] xxs:w-full xxs:object-top"
+              className="w-[400px] h-[300px] rounded-[14px] shadow-[1px_2px_15px_rgba(0,0,0,0.1)] object-cover brightness-95 xxs:h-[280px] xxs:w-full xxs:object-top"
               src={`/static/images/projects/${item.img}`}
               alt=""
             ></img>
@@ -53,7 +53,7 @@ const Projects = ({ active, name }) => {
               {/* containers for code & link */}
               <div className="flex mt-4">
                 <a
-                  className={`icon__link hover:bg-colorWhite ${
+                  className={`icon__link hover:bg-colorWhite shadow-[1px_2px_15px_rgba(0,0,0,0.2)] ${
                     item.git.length === 0 ? "disabled" : ""
                   }`}
                   href={item.git}
@@ -63,7 +63,7 @@ const Projects = ({ active, name }) => {
                   <i className="text-2xl text-colorWhite mx-4 fab fa-github hover:text-colorPrimary"></i>
                 </a>
                 <a
-                  className={`icon__link hover:bg-colorWhite ${
+                  className={`icon__link hover:bg-colorWhite shadow-[1px_2px_15px_rgba(0,0,0,0.2)] ${
                     item.link.length === 0 ? "disabled" : ""
                   }`}
                   href={item.link}

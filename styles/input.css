@@ -195,7 +195,6 @@ li {
   width: 80px;
 }
 .about-card:hover {
-  cursor: pointer;
   transform: translateY(-5px);
   border: 1px solid var(--color-secondary);
 }
