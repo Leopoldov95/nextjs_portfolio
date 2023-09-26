@@ -28,9 +28,9 @@ const Main = ({ active, name, setActive }) => {
             Stack Developer.
           </h1>
           <p className="my-6 mr-6 leading-8">
-            I am a Frontend Developer working at Frequence. I specialize in
-            HTML, CSS, JavaScript, and React and use these technologies to
-            create sophisticated web applications.
+            I am currently a Software Developer working at Frequence. I
+            specialize in HTML, CSS, JavaScript, and React and use these
+            technologies to create sophisticated web applications.
             <br />
             I have knowledge of the backend and have used Node.js, REST
             API&apos;s, and databases to build Full-Stack Web Applications.
