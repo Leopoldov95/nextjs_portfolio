@@ -22,6 +22,10 @@
       "img": "java.svg"
     },
     {
+      "name": "Spring",
+      "img": "spring.svg"
+    },
+    {
       "name": "MySQL",
       "img": "mysql.svg"
     },
@@ -79,6 +83,14 @@
     }
   ],
   "projects": [
+    {
+      "title": "USA Natural Disaster Predictor",
+      "git": "https://github.com/Leopoldov95/natural-disaster-predictor",
+      "link": "https://natural-disaster-predict.netlify.app/",
+      "img": "natural_disaster.png",
+      "stack": ["react", "d3js", "materialui", "python", "flask"],
+      "blurb": "This project is a web application that predicts the likelihood of natural disasters occurring in the USA based on historical FEMA data. It provides visualizations of predicted disasters on a map, in a bar chart, and in a table format."
+    },
     {
       "title": "Vagabond Connect",
       "git": "https://github.com/Leopoldov95/Vagabond-Connect",
