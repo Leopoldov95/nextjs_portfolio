@@ -22,7 +22,7 @@
 
 .light-mode {
   --color-primary: #ffffff;
-  --color-secondary: #00c73d;
+  --color-secondary: #926dfc;
   --color-white: #454e56;
   --color-dark: #000;
   --color-grey0: #f8f8f8;
@@ -345,6 +345,12 @@ li {
 }
 .theme-btn:active {
   transform: translateY(-3px);
+}
+
+/* Light mode project icons */
+.light-mode .tech-icon {
+  filter: invert(1);
+  opacity: 0.6;
 }
 
 /* Media Queries */

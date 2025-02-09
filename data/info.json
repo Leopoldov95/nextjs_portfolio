@@ -18,12 +18,12 @@
       "img": "nextjs.svg"
     },
     {
-      "name": "Java",
-      "img": "java.svg"
+      "name": "React Native",
+      "img": "react.svg"
     },
     {
-      "name": "Spring",
-      "img": "spring.svg"
+      "name": "Java",
+      "img": "java.svg"
     },
     {
       "name": "MySQL",
@@ -54,20 +54,12 @@
       "img": "tailwindcss.svg"
     },
     {
-      "name": "SASS",
-      "img": "sass.svg"
-    },
-    {
       "name": "GAS",
       "img": "gas.svg"
     },
     {
       "name": "Redux",
       "img": "redux.svg"
-    },
-    {
-      "name": "MUI",
-      "img": "materialui.svg"
     },
     {
       "name": "Express",
@@ -78,11 +70,27 @@
       "img": "mongodb.svg"
     },
     {
+      "name": "Supabase",
+      "img": "supabase.svg"
+    },
+    {
       "name": "Git",
       "img": "git.svg"
+    },
+    {
+      "name": "Bash",
+      "img": "bash.svg"
     }
   ],
   "projects": [
+    {
+      "title": "Wellness Companian",
+      "git": "https://github.com/Leopoldov95/wellness-companion",
+      "link": "",
+      "img": "well_being.jpeg",
+      "stack": ["react-native", "expo", "ts", "supabase"],
+      "blurb": "A mental wellness app built with React Native, TypeScript, and Supabase, featuring mood tracking, gratitude journaling, goal setting, meditation, and analytics to help users build healthier habits."
+    },
     {
       "title": "USA Natural Disaster Predictor",
       "git": "https://github.com/Leopoldov95/natural-disaster-predictor",
@@ -109,7 +117,7 @@
     },
     {
       "title": "Admin Metrics Dashboard",
-      "git": "",
+      "git": "https://github.com/Leopoldov95/admin-metric-dashboard",
       "link": "",
       "img": "dashboard.png",
       "stack": ["javascript", "d3js", "gas", "html5", "css3"],
@@ -122,14 +130,6 @@
       "img": "suay.png",
       "stack": ["react", "redux", "sass", "nodejs", "express", "mongodb"],
       "blurb": "Hotel Booking website with a database for bookings created using the MERN stack. Users can manage bookings and are alerted if a room is full or available at a specified date."
-    },
-    {
-      "title": "Bicycle eCommerce Shop",
-      "git": "https://github.com/Leopoldov95/bicycle_ecomm",
-      "link": "https://leocycles.netlify.app/",
-      "img": "ecomm.png",
-      "stack": ["react", "redux", "sass", "nodejs", "express", "mongodb"],
-      "blurb": "Biycle eCommerce wesbite with user authentication created with the MERN stack. Has a persistant shopping cart that is stored in the client's browser."
     }
   ],
   "work": [
@@ -139,13 +139,12 @@
       "company": "frequence",
       "location": "mt view, CA",
       "duties": [
-        "Work alongside other software engineers to contribute HTML, CSS, and JS code to an existing codebase by creating and maintaining web applications.",
-        "Use SQL to make sensitive updates to code and files stored in an AWS bucket.",
-        "Work off a Jira Kanban board in an agile work methodology through sprint cycles.",
-        "Use the data visualization library D3JS to showcase beautiful and informative visuals to clients.",
-        "Communicate with the designers who specialize in designing dynamic web content to help them better understand the dynamic data we handle and how to best represent them.",
-        "Create internal tools for the Creative team such as a metrics dashboard to help the team leaders better see the metrics for designers using data from Google Sheets and using Google Apps Script to host the application.",
-        "Contribute to new products such as Websites by helping designers better understand the fundamentals of CSS class names and HTML structuring."
+        "Led development of reusable Web Components infrastructure using Storybook and TypeScript, reducing redundant code by 80% and reducing client-facing errors by 40%.",
+        "Created an internal metrics dashboard using Web Components and Google Apps Script, enabling team leads to efficiently analyze designer performance, resulting in more meaningful peer feedback.",
+        "Sole US-based dev for a client-facing frontend product, handling 100% of urgent fixes & red alerts.",
+        "Trained and onboarded developers into the updated Web Components system, ensuring seamless integration.",
+        "Utilized HTML, CSS, JavaScript, jQuery, and D3.js to build interactive data visualizations for our platform.",
+        "Partnered with designers to optimize API data usage, reducing designer errors by 40%, leading to fewer revisions and faster project completion"
       ]
     },
     {
@@ -162,7 +161,7 @@
   ],
   "education": [
     {
-      "dates": "Jan 2021 - May 2024",
+      "dates": "Jan 2021 - Mar 2024",
       "title": "B.S. - Computer Science",
       "company": "Western Governors University",
       "location": "",
@@ -208,19 +207,19 @@
   "about": [
     {
       "title": "Frontend Expert",
-      "desc": "Professional knowledge of HTML, JavaScript, CSS, and React."
+      "desc": "Skilled in modern technologies like ReactJS, TypeScript, and D3.js for crafting dynamic SPAs."
     },
     {
-      "title": "Proactive",
-      "desc": "Identifiy existing problems and take steps to resolve them."
+      "title": "3+ Years of Experience",
+      "desc": "Skilled in creating dynamic web applications, data visualizations, and internal tools."
     },
     {
-      "title": "Learner",
-      "desc": "Always improving existing skills and exploring new technologies."
+      "title": "Full-Stack Learner",
+      "desc": "Hands-on experience with Node.js, Express.js, MongoDB, and React Native for backend and mobile projects."
     },
     {
-      "title": "Collaborative",
-      "desc": "Communicates with team members to ensure projects are meeting their goals."
+      "title": "Award-Winning Developer",
+      "desc": "Recipient of the WGU Capstone of the Month Award for an interactive disaster forecasting tool."
     }
   ]
 }

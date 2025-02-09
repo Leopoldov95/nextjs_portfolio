@@ -708,10 +708,6 @@ video {
   flex: 3;
 }
 
-.grow {
-  flex-grow: 1;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -774,10 +770,6 @@ video {
 
 .rounded-\[22px\] {
   border-radius: 22px;
-}
-
-.rounded-\[15px\] {
-  border-radius: 15px;
 }
 
 .border-1 {
@@ -867,11 +859,6 @@ video {
   padding-bottom: 0px;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .pt-14 {
   padding-top: 3.5rem;
 }
@@ -888,8 +875,8 @@ video {
   padding-right: 1rem;
 }
 
-.pl-12 {
-  padding-left: 3rem;
+.pl-8 {
+  padding-left: 2rem;
 }
 
 .pb-16 {
@@ -914,6 +901,10 @@ video {
 
 .pb-12 {
   padding-bottom: 3rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .pt-8 {
@@ -1031,18 +1022,6 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-\[1px_2px_15px_rgba\(0\2c 0\2c 0\2c 0\.4\)\] {
-  --tw-shadow: 1px 2px 15px rgba(0,0,0,0.4);
-  --tw-shadow-colored: 1px 2px 15px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.shadow-boxShadow1 {
-  --tw-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
-  --tw-shadow-colored: 0 3px 15px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-\[1px_2px_15px_rgba\(0\2c 0\2c 0\2c 0\.2\)\] {
   --tw-shadow: 1px 2px 15px rgba(0,0,0,0.2);
   --tw-shadow-colored: 1px 2px 15px var(--tw-shadow-color);
@@ -1098,7 +1077,7 @@ video {
 
 .light-mode {
   --color-primary: #ffffff;
-  --color-secondary: #00c73d;
+  --color-secondary: #926dfc;
   --color-white: #454e56;
   --color-dark: #000;
   --color-grey0: #f8f8f8;
@@ -1481,6 +1460,13 @@ li {
   transform: translateY(-3px);
 }
 
+/* Light mode project icons */
+
+.light-mode .tech-icon {
+  filter: invert(1);
+  opacity: 0.6;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1580px) {
@@ -1637,9 +1623,9 @@ li {
   height: 1px;
 }
 
-.before\:w-8::before {
+.before\:w-6::before {
   content: var(--tw-content);
-  width: 2rem;
+  width: 1.5rem;
 }
 
 .before\:w-\[40\%\]::before {
