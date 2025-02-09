@@ -18,19 +18,21 @@ const About = ({ active, name, mode }) => {
             Information about me
           </h4>
           <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
-            My name is <span className="text-colorSecondary">Leo Ortega</span>,
-            I am a front-end web developer proficient in crafting seamless user
-            interfaces using HTML, CSS, JavaScript, D3.js, and React. I possess
-            a solid foundation in backend technologies including node.js,
-            express.js, and MySQL databases, allowing me to seamlessly integrate
-            front-end designs with robust server-side functionalities.
+            As a frontend developer, I excel at building intuitive web
+            applications using technologies like HTML, CSS, JavaScript, and
+            React. My work includes creating reusable Web Components that
+            streamline development workflows and collaborating with
+            cross-functional teams to deliver scalable solutions. By improving
+            processes and reducing errors, I’ve made meaningful contributions to
+            team productivity.
           </p>
           <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
-            As I continue to grow in my role, I am eagerly seeking full-stack
-            developer opportunities to further expand my skill set and take on
-            more comprehensive projects. I am excited to leverage my combined
-            front-end and backend expertise to tackle new challenges and deliver
-            exceptional solutions.
+            Beyond frontend development, I’m actively growing my skills in
+            backend and mobile development. My personal projects include
+            building RESTful APIs with Node.js, implementing databases with
+            MongoDB, and developing mobile apps using React Native. These
+            efforts reflect my dedication to continuous learning and my drive to
+            deliver innovative solutions across various platforms.
           </p>
           {/* <!-- button container --> */}
           <div className="flex self-start">
@@ -61,7 +63,7 @@ const About = ({ active, name, mode }) => {
                 <p className="text-[1.75rem] font-semibold text-colorSecondary h-[4.5rem] leading-7">
                   {item.title}
                 </p>
-                <p className="about-box-text pl-12 relative uppercase text-[1rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-8 before:h-[2px] before:bg-colorGrey5">
+                <p className="about-box-text pl-8 relative uppercase text-[1rem] text-colorGrey1 tracking-[2px] before:content-[''] before:absolute before:left-0 before:top-[15px] before:w-6 before:h-[2px] before:bg-colorGrey5">
                   {item.desc}
                 </p>
               </div>

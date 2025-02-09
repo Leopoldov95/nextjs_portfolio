@@ -24,18 +24,19 @@ const Main = ({ active, name, setActive }) => {
           {/* <!-- Name --> */}
           <h1 className="text-5xl xs:text-[2.5rem] xs:text-center xs:pt-12 md_s:text-[2.5rem] md_s:text-center md_s:pt-12 mobile:text-left">
             Hi, I&apos;m{" "}
-            <span className="text-colorSecondary">Leo Ortega.</span> A Full
-            Stack Developer.
+            <span className="text-colorSecondary">Leo Ortega.</span> A Software
+            Developer.
           </h1>
           <p className="my-6 mr-6 leading-8">
-            I am currently a Software Developer working at Frequence. I
-            specialize in HTML, CSS, JavaScript, and React and use these
-            technologies to create sophisticated web applications.
+            I’m a frontend developer with a passion for creating dynamic,
+            user-focused web applications and tools. With expertise in modern
+            technologies like JavaScript, React, and D3.js, I specialize in
+            building reusable components and scalable solutions that enhance
+            efficiency.
             <br />
-            I have knowledge of the backend and have used Node.js, REST
-            API&apos;s, and databases to build Full-Stack Web Applications.
-            <br />I am continuously looking to challenge myself and create
-            software that can satisfy company and client needs.
+            While my professional experience is rooted in frontend development,
+            I’m expanding into full-stack and mobile development to deliver
+            impactful solutions across platforms.
           </p>
           {/* <!-- header main button --> */}
           {/* <!-- Header Button container --> */}

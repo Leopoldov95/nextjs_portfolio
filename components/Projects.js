@@ -42,7 +42,7 @@ const Projects = ({ active, name }) => {
                 <div className="flex gap-4 my-4">
                   {item.stack.map((skill, idx) => (
                     <img
-                      className="w-6 mobile:w-4"
+                      className="tech-icon w-6 mobile:w-4"
                       key={idx}
                       src={`/static/images/icons/${skill}.svg`}
                     ></img>
@@ -75,37 +75,6 @@ const Projects = ({ active, name }) => {
               </div>
             </div>
           </div>
-          // <div key={idx} className="portfolio-items relative">
-          //   <div className=" h-[300px] shadow-boxShadow1 rounded-[15px]">
-          //     <img
-          //       className="w-full h-[300px] rounded-[15px] object-cover brightness-95"
-          //       src={`/static/images/projects/${item.img}`}
-          //       alt=""
-          //     />
-          //   </div>
-          //   <div className="hover-items">
-          //     <h3 className="text-2xl text-colorWhite mb-6">{item.title}</h3>
-          //     <p className="mb-4 text-center px-6">{item.blurb}</p>
-          //     <div className=" flex justify-center items-center">
-          //       <a
-          //         className="icon hover:bg-colorWhite"
-          //         href={item.git}
-          //         rel="noreferrer"
-          //         target="_blank"
-          //       >
-          //         <i className="text-2xl text-colorWhite mx-4 fab fa-github hover:text-colorPrimary"></i>
-          //       </a>
-          //       <a
-          //         className="icon hover:bg-colorWhite"
-          //         href={item.link}
-          //         rel="noreferrer"
-          //         target="_blank"
-          //       >
-          //         <i className="text-2xl text-colorWhite mx-4 fas fa-link hover:text-colorPrimary"></i>
-          //       </a>
-          //     </div>
-          //   </div>
-          // </div>
         ))}
       </div>
     </section>
