@@ -1,5 +1,5 @@
 {
-  "cv_link": "https://drive.google.com/file/d/1Oib3fzJ5LU2GVcEvIsF0kNR40wwG7qCP/view?usp=sharing",
+  "cv_link": "https://drive.google.com/file/d/13r8rx81qjxdBRYOR1hsp2l2QWiRiMkf0/view?usp=sharing",
   "skills_tech": [
     {
       "name": "JavaScript",
@@ -134,34 +134,46 @@
   ],
   "work": [
     {
-      "dates": "Jan 2022 - present",
+      "dates": "Jan 2022 - May 2025",
       "title": "frontend developer",
       "company": "frequence",
       "location": "mt view, CA",
       "duties": [
-        "Led development of reusable Web Components infrastructure using Storybook and TypeScript, reducing redundant code by 80% and reducing client-facing errors by 40%.",
-        "Created an internal metrics dashboard using Web Components and Google Apps Script, enabling team leads to efficiently analyze designer performance, resulting in more meaningful peer feedback.",
-        "Sole US-based dev for a client-facing frontend product, handling 100% of urgent fixes & red alerts.",
-        "Trained and onboarded developers into the updated Web Components system, ensuring seamless integration.",
-        "Utilized HTML, CSS, JavaScript, jQuery, and D3.js to build interactive data visualizations for our platform.",
-        "Partnered with designers to optimize API data usage, reducing designer errors by 40%, leading to fewer revisions and faster project completion"
+        "Led a Web Components architecture using Storybook and TypeScript, reducing code duplication by ~60% and improving reliability by 30%.",
+        "Built a client-facing slide generation platform using JavaScript, HTML, CSS, jQuery, and D3.js for interactive data visualization.",
+        "Served as the sole US-based engineer for a production system, owning all urgent fixes and incident response.",
+        "Developed internal analytics dashboards with React, Typescript, Node.js and Google Apps Script to improve team decision-making.",
+        "Partnered with design teams to standardize API data structures, reducing rework and improving accuracy by ~40%.",
+        "Onboarded engineers into the Web Components system, improving adoption and development speed."
       ]
     },
     {
       "dates": "Sept 2020 - Jan 2022",
-      "title": "Learing Web Development",
-      "company": "self taught",
+      "title": "Self-Taught Web Developer",
+      "company": "Independent",
       "duties": [
-        "Learned the fundamentals of HTML, CSS, and JavaScript",
-        "Expanded my knowledge by learning about frontend frameworks and backend web technologies such as Node.js",
-        "Built projects that tested my abilities as a developer.",
-        "Technically still ongoing as being a developer means always learning new techniques and technologies."
+        "Built foundational skills in HTML, CSS, and JavaScript through hands-on project development.",
+        "Expanded into modern web development including frontend frameworks and backend technologies such as Node.js.",
+        "Developed personal projects to apply and reinforce software engineering concepts and problem-solving skills.",
+        "Maintained continuous self-directed learning across new tools, frameworks, and development practices."
       ]
     }
   ],
   "education": [
     {
-      "dates": "Jan 2021 - Mar 2024",
+      "dates": "Jan 2021 - May 2023",
+      "title": "Computer Science",
+      "company": "North Hennepin Community College",
+      "location": "",
+      "duties": [
+        "Studied core computer science fundamentals including programming, object-oriented design, and software development principles.",
+        "Completed coursework in data structures, algorithms, discrete mathematics, and computer systems.",
+        "Developed programming proficiency in Java with exposure to additional languages and scripting fundamentals.",
+        "Built foundational projects applying software engineering concepts and structured problem-solving techniques."
+      ]
+    },
+    {
+      "dates": "Aug 2023 - Mar 2024",
       "title": "B.S. - Computer Science",
       "company": "Western Governors University",
       "location": "",
@@ -181,10 +193,6 @@
     {
       "icon": "fa-brands fa-github",
       "url": "https://github.com/Leopoldov95"
-    },
-    {
-      "icon": "fab fa-facebook-f",
-      "url": "https://www.facebook.com/leopoldoortegav/"
     }
   ],
   "contact": [
@@ -207,15 +215,15 @@
   "about": [
     {
       "title": "Frontend Expert",
-      "desc": "Skilled in modern technologies like ReactJS, TypeScript, and D3.js for crafting dynamic SPAs."
+      "desc": "Skilled in modern technologies like ReactJS, TypeScript, and D3.js for crafting dynamic applications."
     },
     {
-      "title": "3+ Years of Experience",
-      "desc": "Skilled in creating dynamic web applications, data visualizations, and internal tools."
+      "title": "OWNERSHIP & LEADERSHIP",
+      "desc": "I take ownership of production systems, leading incident response, cross-team coordination, and code quality standards."
     },
     {
-      "title": "Full-Stack Learner",
-      "desc": "Hands-on experience with Node.js, Express.js, MongoDB, and React Native for backend and mobile projects."
+      "title": "SYSTEMS THINKER",
+      "desc": "I design scalable, reusable architectures and improve engineering efficiency through modular, maintainable code."
     },
     {
       "title": "Award-Winning Developer",

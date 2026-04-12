@@ -18,21 +18,20 @@ const About = ({ active, name, mode }) => {
             Information about me
           </h4>
           <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
-            As a frontend developer, I excel at building intuitive web
-            applications using technologies like HTML, CSS, JavaScript, and
-            React. My work includes creating reusable Web Components that
-            streamline development workflows and collaborating with
-            cross-functional teams to deliver scalable solutions. By improving
-            processes and reducing errors, I’ve made meaningful contributions to
-            team productivity.
+            Software Developer with 3.5+ years of experience building scalable,
+            data-driven web applications and internal tools in fast-paced
+            startup environments. I specialize in frontend development with
+            strong fullstack capabilities, working across React,
+            JavaScript/TypeScript, and backend systems including Node.js and
+            Java (Spring Boot).
           </p>
           <p className="leading-8 pr-4 py-4 text-colorGrey1 xs:pl-0 sm:text-left">
-            Beyond frontend development, I’m actively growing my skills in
-            backend and mobile development. My personal projects include
-            building RESTful APIs with Node.js, implementing databases with
-            MongoDB, and developing mobile apps using React Native. These
-            efforts reflect my dedication to continuous learning and my drive to
-            deliver innovative solutions across various platforms.
+            I’ve contributed to major frontend architecture improvements,
+            including reusable component systems and design tooling, while also
+            contributing to backend services, database optimization, and
+            cross-functional automation workflows. My work spans data
+            visualization (D3.js), API integration, and building internal
+            platforms that improve team efficiency and product reliability.
           </p>
           {/* <!-- button container --> */}
           <div className="flex self-start">
