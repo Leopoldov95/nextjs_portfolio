@@ -28,15 +28,13 @@ const Main = ({ active, name, setActive }) => {
             Developer.
           </h1>
           <p className="my-6 mr-6 leading-8">
-            I’m a frontend developer with a passion for creating dynamic,
-            user-focused web applications and tools. With expertise in modern
-            technologies like JavaScript, React, and D3.js, I specialize in
-            building reusable components and scalable solutions that enhance
-            efficiency.
-            <br />
-            While my professional experience is rooted in frontend development,
-            I’m expanding into full-stack and mobile development to deliver
-            impactful solutions across platforms.
+            Software Developer with 3.5+ years of experience building scalable
+            web applications and internal tools. I specialize in frontend
+            development with strong fullstack capability across React,
+            JavaScript/TypeScript, and backend systems like Node.js and Java.
+            <br />I enjoy creating clean, reusable systems, data-driven
+            interfaces, and products that improve both user and developer
+            experience.
           </p>
           {/* <!-- header main button --> */}
           {/* <!-- Header Button container --> */}
