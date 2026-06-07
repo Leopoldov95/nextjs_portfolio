@@ -26,6 +26,10 @@
       "img": "java.svg"
     },
     {
+      "name": "Spring Boot",
+      "img": "springboot.svg"
+    },
+    {
       "name": "MySQL",
       "img": "mysql.svg"
     },
@@ -70,6 +74,10 @@
       "img": "mongodb.svg"
     },
     {
+      "name": "Docker",
+      "img": "docker.svg"
+    },
+    {
       "name": "Supabase",
       "img": "supabase.svg"
     },
@@ -84,12 +92,12 @@
   ],
   "projects": [
     {
-      "title": "Wellness Companian",
-      "git": "https://github.com/Leopoldov95/wellness-companion",
-      "link": "",
-      "img": "well_being.jpeg",
-      "stack": ["react-native", "expo", "ts", "supabase"],
-      "blurb": "A mental wellness app built with React Native, TypeScript, and Supabase, featuring mood tracking, gratitude journaling, goal setting, meditation, and analytics to help users build healthier habits."
+      "title": "Taskflow",
+      "git": "https://github.com/Leopoldov95/Taskflow",
+      "link": "https://taskflow.leoortega.com/swagger-ui/index.html",
+      "img": "taskflow.png",
+      "stack": ["springboot", "java", "mysql", "docker"],
+      "blurb": "Taskflow is a task management application built with Java Spring Boot and MySQL, featuring a RESTful API for creating, updating, and deleting tasks. The application is containerized with Docker for easy deployment and scalability."
     },
     {
       "title": "USA Natural Disaster Predictor",
@@ -122,6 +130,14 @@
       "img": "dashboard.png",
       "stack": ["javascript", "d3js", "gas", "html5", "css3"],
       "blurb": "Admin dashboard for managers and team leads to visualize employee performance with interactive charts and graphs created with D3.js. Reads data from a database with live updates on employee metrics."
+    },
+    {
+      "title": "Wellness Companian",
+      "git": "https://github.com/Leopoldov95/wellness-companion",
+      "link": "",
+      "img": "well_being.jpeg",
+      "stack": ["react-native", "expo", "ts", "supabase"],
+      "blurb": "A mental wellness app built with React Native, TypeScript, and Supabase, featuring mood tracking, gratitude journaling, goal setting, meditation, and analytics to help users build healthier habits."
     },
     {
       "title": "Suay Resort",
